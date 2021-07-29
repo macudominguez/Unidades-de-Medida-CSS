@@ -1,0 +1,128 @@
+/**{
+    margin: 0;  
+    padding: 0;
+} */
+
+body {
+    display:flex;   
+    flex-direction:column;
+    width:100vw;    
+    background-color: #FEF7DC;
+    align-items: center; 
+    
+
+    
+}
+
+@font-face {
+      
+    
+    font-family:"ZillaSlab-SemiBold";   
+    src: url(../tipografia/ZillaSlab-SemiBold.ttf);
+
+}
+
+
+
+.table,th,td {
+    border: 1px solid black;    
+    text-align: center;   
+       
+}
+
+
+th,td {
+    padding:10px;   
+    text-align: center;     
+    font-family: Arial, Helvetica, sans-serif;  
+   
+}
+
+th {
+    background: #E6DDC6;
+
+
+}
+
+tr:nth-child(even){
+background-color: beige;
+}
+
+tr:hover td{
+    background-color: #968C83;  
+    color: whitesmoke;
+
+
+}
+
+h1 {
+
+    font-size: 350%;      
+    width:50%;
+    text-align: center; 
+    margin: 0px auto; 
+    font-family: "ZillaSlab-SemiBold";  
+    box-shadow: 0px 0px 30px 0px #BB8760;
+    padding: 30px 0;    
+    border-radius: 15px;    
+    
+
+}
+
+h2 {
+    font-family:"ZillaSlab-SemiBold";
+    font-size: 40px;
+   
+
+}
+
+h3 {
+    font-family:"ZillaSlab-Semibold";   
+    font-size: 35px;   
+
+
+
+}
+
+table {
+    background-color: white;    
+    border-collapse: collapse;  
+    width:50%;  
+    box-shadow: 0px 0px 30px 0px rgba(124, 110, 80, 0.25);
+    
+
+}
+
+
+
+p {
+    font-size: 95%;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    
+}
+
+span{ 
+    color: saddlebrown; 
+    font-weight: bold;  
+    font-style: italic;
+
+}
+
+.color {
+    color:slategray;    
+    font-weight: bold;  
+    font-style:italic;
+}
+
+.color2 {
+    color:#402218;  
+    font-weight: bold;  
+    font-style:italic;  
+}
+
+.color3 {
+    color:#C68B59;  
+    font-weight: bold;  
+    font-style:italic;
+
+}

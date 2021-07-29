@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Unidades De Medida CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">    
+        <link rel="icon" href="favicon/favi.png" type="image/png" sizes="16x16">
+
+    </head>
+    <body>
+            <h1>Unidades de medida en CSS</h1><br><br>
+                   
+            <h2>Unidades Absolutas</h2> 
+            
+            <p>Son un tipo de medida fija que no cambia, no depende de ningun otro factor.</p>
+            <table>
+                <tr class="table1">
+                    <th> Unidad</th>    
+                    <th> Significado</th>    
+                    <th> Medida aproximada</th> 
+                </tr>
+                <tr>
+                    <td> in</td>   
+                    <td> pulgadas</td>   
+                    <td> 1in=25.4mm</td>   
+                 </tr>      
+                 <tr>
+                    <td>cm</td>   
+                    <td> centimetros</td>   
+                    <td>1cm= 10mm</td>   
+                 </tr>      
+                 <tr>
+                    <td>pc</td>   
+                    <td> Picas</td>   
+                    <td>1pc=4.23mm</td>   
+                 </tr>  
+                 <tr>
+                    <td>pt</td>   
+                    <td>Puntos</td>   
+                    <td>1pt=0.35mm</td>   
+                 </tr>  
+                 <tr>
+                    <td>px</td>   
+                    <td>Pixels</td>   
+                    <td>1px=0.26mm</td>   
+                 </tr>  
+                 <tr>
+                    <td>Q</td>   
+                    <td> Cuarto de mm</td>   
+                    <td>1Q=0.248mm</td>   
+                 </tr> 
+        
+
+            </table> 
+            <table>
+                <br>
+                <br>
+                <tr>
+                    <th>Ventajas</th>   
+                    <td>Son un tipo de medida fija que no cambia , no depende de ningun otro factor.    
+                 </tr>
+                 <tr>
+                    <th>Desventajas</th>    
+                    <td>Unidades poco adecuadas para la web, no se adaptan a diferentes resoluciones o pantallas.</td>
+
+                 </tr>   
+            </table>
+            <br>    
+            <br>       
+            <!--UNIDADES RELATIVAS-->
+                <h2>Unidades Relativas</h2>    
+                <p>Las unidades relativas de CSS son aquellas que tienen en cuenta el contexto donde se encuentran.<br> Son relativas a las dimensiones del contenedor donde se han definido.</p>
+                <table class="table1">
+                <tr>
+                    <th> Unidad</th>    
+                    <th> Significado</th>    
+                    <th> Medida aproximada</th> 
+                </tr>
+                <tr>
+                    <td>em</td>   
+                    <td>M</td>   
+                    <td>1em=tamaño de la fuente establecida en el navegador</td>   
+                 </tr>      
+                 <tr>
+                    <td>ex</td>   
+                    <td>X(0.5em)</td>   
+                    <td>1ex= mitad del tamaño de fuente del navegador</td>   
+                 </tr>      
+                 <tr>
+                    <td>ch</td>   
+                    <td>Zero width</td>   
+                    <td>1ch=tamaño de ancho del cero (0)</td>   
+                 </tr>  
+                 <tr>
+                    <td>rem</td>   
+                    <td>root M</td>   
+                    <td>1rem=tamaño de fuente personalizado</td>   
+                 </tr>  
+                 <tr>
+                    <td>%</td>   
+                    <td>Porcentaje</td>   
+                    <td>Relativa a herencia (concretamente,al elemento padre)</td>   
+                 </tr>  
+                 <tr>
+                    <td>vw</td>   
+                    <td> viewport width</td>   
+                    <td>1vw=1% ancho de navegador</td>   
+                 </tr>
+                 <tr>
+                    <td>vh</td>   
+                    <td> viewport height</td>   
+                    <td>1vw=1% alto de navegador</td>   
+                 </tr> 
+                 <tr>
+                    <td>vmin</td>   
+                    <td> viewport minimum</td>   
+                    <td>1vmin=1% de alto o ancho (el mínimo)</td>   
+                 </tr> 
+                 <tr>
+                    <td>vmax</td>   
+                    <td> viewport maximum</td>   
+                    <td>1vmmax=1% de alto o ancho (el máximo)</td>   
+                 </tr>         
+            </table>
+            <br>
+            <br>
+           
+           <table>
+            <tr>
+                <th>Ventajas</th>   
+                <td>Ideales para trabajar en dispositivos con diferentes tamaños ya que son flexibles y versátiles</td>   
+             </tr>
+             </table>
+             <br>
+             <h3>Recomendaciones</h3>    
+             <p>En general, se recomienda el uso de <span>unidades relativas</span> siempre que sea posible, ya que mejora la accesibilidad de la página y permite que los documentos se adapten fácilmente a cualquier medio y dispositivo.<br>El organismo W3C, recomienda el uso de la unidad <span class="color">em</span> para indicar el tamaño del texto y para todas las medidas que sean posibles.<br>Normalmente se utilizan <span class="color2">píxel</span> y <span class="color3">porcentajes</span> para definir el layout del documento (básicamente, la anchura de las columnas y de los elementos de las páginas) y em y porcentajes para el tamaño de letra de los textos.</p>
+    
+        </body>
+</html>
